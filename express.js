@@ -1,6 +1,6 @@
 const express = require('express')
 const path = require('node:path')
-const { PORT, ROUTES, REQUEST_METHODS } = require('./contants.js')
+const { PORT, ROUTES, REQUEST_METHODS } = require('./constants.js')
 
 const app = express()
 

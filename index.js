@@ -1,5 +1,5 @@
 const http = require('node:http')
-const { REQUEST_METHODS, ROUTES, PORT } = require('./contants.js')
+const { REQUEST_METHODS, ROUTES, PORT } = require('./constants.js')
 const { sendError, helloWord, sendLogo, createContact } = require('./httpHandlers.js')
 
 const processRequest = (req, res) => {
